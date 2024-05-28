@@ -1,0 +1,5 @@
+n1=input("pl enter name or somting.....")
+digit_count=sum(1 for i in n1 if i.isdigit())
+letter_count=sum(1 for i in n1 if i.isalpha())
+print("you have digits",digit_count)
+print("you have digits", letter_count)
